@@ -1,0 +1,5 @@
+input_shape:(1,187,1)
+datatype:float32
+output:binary
+0=Normal
+1=Abnormal
