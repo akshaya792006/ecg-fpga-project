@@ -7,7 +7,7 @@
 
 #include "parameters.h"
 
-typedef ap_axiu<16, 0, 0, 0> axis_pkt_t;
+typedef ap_axiu<16, 1, 1, 1> axis_pkt_t;
 typedef hls::stream<axis_pkt_t> axis_stream_t;
 
 void myproject(axis_stream_t &in_stream, axis_stream_t &out_stream, int num_samples);
